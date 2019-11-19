@@ -56,9 +56,13 @@ class Login {
 	/**
 	 * Executes after every test suite
 	 */
-	//@AfterTestSuite
+	@AfterTestSuite
 	def closeBrowserAfterTestSuite(){
-		WebUI.closeBrowser()
+		DriverFactory.changeWebDriver(GlobalVariable.modaratorDriver)
+		CustomKeywords.'pages.ModaratorChatBox.logOutModerator'();
+		WebUI.closeBrowser();
+		DriverFactory.changeWebDriver(GlobalVariable.userDriver)
+		WebUI.closeBrowser();
 	}
 }
 

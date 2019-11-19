@@ -37,9 +37,6 @@ public class ModaratorChatBox {
 		actions.click(findTestObject("Object Repository/Modarator objects/Send message button"))
 		WebUI.delay(3)
 		verifications.verifyElementText(findTestObject('Modarator objects/Modarator last message in modarator chat box'),message,message+" message takes too long time to present, after sending from the modarator")
-
-		//		def messageText = actions.getText(findTestObject('Modarator objects/Modarator last message in modarator chat box'))
-		//		WebUI.verifyMatch(messageText,message, false);
 	}
 
 	@Keyword
@@ -107,7 +104,7 @@ public class ModaratorChatBox {
 	@Keyword
 	getModaratorName(){
 		actions.click(findTestObject("Object Repository/Modarator objects/modarator menu button"));
-		verifications.verifyElementPresent(findTestObject('Object Repository/Modarator objects/profile bar'), "profile bar takes too long time to present ",GlobalVariable.mediumWaitTime)
+		verifications.waitUntilElementVisible(findTestObject('Object Repository/Modarator objects/profile bar'), "profile bar takes too long time to present ",GlobalVariable.mediumWaitTime)
 		def modaratorName = actions.getText(findTestObject('Object Repository/Modarator objects/Modarator Name'))
 		GlobalVariable.modaratorName = modaratorName
 		actions.click(findTestObject('Object Repository/Modarator objects/modarator menu button'))
@@ -122,5 +119,13 @@ public class ModaratorChatBox {
 		if(ModeratorNameInModeratorChartBox != ModeratorNameInUserChartBox){
 			KeywordUtil.markFailedAndStop(ModeratorNameInModeratorChartBox)("The user is connected to different moderator")
 		}
+	}
+	
+	@Keyword
+	logOutModerator(){
+		actions.click(findTestObject("Object Repository/Modarator objects/modarator menu button"));
+		verifications.waitUntilElementVisible(findTestObject('Object Repository/Modarator objects/profile bar'), "profile bar takes too long time to present ",GlobalVariable.mediumWaitTime)
+		actions.click(findTestObject('Object Repository/Modarator objects/logOutButton'));
+		verifications.waitUntilElementVisible(findTestObject('Object Repository/Modarator objects/loginButton'), "logout functionality takes too long time to present", GlobalVariable.highWaitTime)
 	}
 }

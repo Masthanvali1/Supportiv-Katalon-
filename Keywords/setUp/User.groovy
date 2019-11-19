@@ -33,7 +33,7 @@ public class User {
 		loginPage.getUrl(GlobalVariable.userUrl);
 		userWebpage.ClickOnChatButton();
 		userWebpage.SwitchIframeToUserChatBox();
-		userWebpage.EnterStruggleText("how to get relief from work pressure");
+		userWebpage.EnterStruggleText(GlobalVariable.struggleText);
 		userWebpage.ClickOnGetMatchedButton();
 		userWebpage.EnterUserName(GlobalVariable.nameOfTheUser);
 		userWebpage.ClickReadyButton()

@@ -59,8 +59,8 @@ public class drivers {
 				default: throw new Exception("On Windows platform supported browsers are Chrome | Firefox | Edge; choose a valid browser before start running the scripts")
 			}
 		}
-		if(GlobalVariable.OS_Name .contains('mac')){
-
+		if(GlobalVariable.OS_Name.contains('mac')){
+			
 			switch(browserName.toLowerCase()) {
 				case "chrome":
 					def chromeDriver =  openChromeDriveForMac()
