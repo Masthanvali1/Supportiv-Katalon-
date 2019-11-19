@@ -120,7 +120,7 @@ public class ModaratorChatBox {
 			KeywordUtil.markFailedAndStop(ModeratorNameInModeratorChartBox)("The user is connected to different moderator")
 		}
 	}
-	
+
 	@Keyword
 	logOutModerator(){
 		actions.click(findTestObject("Object Repository/Modarator objects/modarator menu button"));

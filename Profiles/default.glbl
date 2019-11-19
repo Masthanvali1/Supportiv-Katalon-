@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>choose a browser before start running the scripts - Chrome | Safari | Firefox | Edge</description>
-      <initValue>'safari'</initValue>
+      <initValue>'Firefox'</initValue>
       <name>browserNameForUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,6 +41,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'how to get relief from work pressure'</initValue>
+      <name>struggleText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MasthanVali'</initValue>
+      <name>nameOfTheUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>30</initValue>
       <name>defaultWaitTime</name>
    </GlobalVariableEntity>
@@ -58,11 +68,6 @@
       <description></description>
       <initValue>180</initValue>
       <name>veryHighWaitTime</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'MasthanVali'</initValue>
-      <name>nameOfTheUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>no need to set or change value of this variable</description>
