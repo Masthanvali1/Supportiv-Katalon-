@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>no need to change this variable</description>
+      <initValue>''</initValue>
+      <name>OS_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>choose a browser before start running the scripts - Chrome | Safari | Firefox | Edge</description>
+      <initValue>'Chrome'</initValue>
+      <name>browserNameForModerator</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>choose a browser before start running the scripts - Chrome | Safari | Firefox | Edge</description>
+      <initValue>'safari'</initValue>
+      <name>browserNameForUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://supportiv-stage.com/login'</initValue>
+      <name>moderatorUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://temptest.kinsta.cloud/'</initValue>
+      <name>userUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'stasmorgun4+Pouria@gmail.com'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>defaultWaitTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>60</initValue>
+      <name>mediumWaitTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>120</initValue>
+      <name>highWaitTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>180</initValue>
+      <name>veryHighWaitTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MasthanVali'</initValue>
+      <name>nameOfTheUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>no need to set or change value of this variable</description>
+      <initValue>''</initValue>
+      <name>modaratorDriver</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>no need to set or change value of this variable</description>
+      <initValue>''</initValue>
+      <name>userDriver</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>no need to set or change value of this variable</description>
+      <initValue>''</initValue>
+      <name>modaratorName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>no need to set or change value of this variable</description>
+      <initValue>''</initValue>
+      <name>modaratorNameInUserPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'All Drivers/chromedriver_win32/chromedriver.exe'</initValue>
+      <name>chromeDriverPathForWindows</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'All Drivers/firefox_win64/geckodriver.exe'</initValue>
+      <name>firefoxDriverPathForWindows</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'All Drivers/edgedriver/MicrosoftWebDriver.exe'</initValue>
+      <name>edgeDriverForWindows</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'All Drivers/chromedriver_mac/chromedriver'</initValue>
+      <name>chromeDriverPathForMac</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
