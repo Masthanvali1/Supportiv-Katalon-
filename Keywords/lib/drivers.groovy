@@ -60,7 +60,7 @@ public class drivers {
 			}
 		}
 		if(GlobalVariable.OS_Name.contains('mac')){
-			
+
 			switch(browserName.toLowerCase()) {
 				case "chrome":
 					def chromeDriver =  openChromeDriveForMac()
@@ -75,8 +75,8 @@ public class drivers {
 			}
 		}
 	}
-	
-	
+
+
 	@Keyword
 	def openChromeDriveForWindows(){
 		System.setProperty("webdriver.chrome.driver", chromeDriverPathForWindows)
